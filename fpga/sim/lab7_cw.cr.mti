@@ -1,0 +1,229 @@
+C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/subBytes.sv {2 {vlog -work work -vopt -sv -stats=none C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/subBytes.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+** Warning: C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/subBytes.sv(16): (vlog-13314) Defaulting port 's' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+-- Compiling package subBytes_sv_unit
+-- Compiling module subBytes
+** Warning: C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/subBytes.sv(16): (vlog-13314) Defaulting port 's' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	subBytes
+
+} {} {}} C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/mixcolumn_tb.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/mixcolumn_tb.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module mixcolumn_tb
+
+Top level modules:
+	mixcolumn_tb
+
+} {} {}} C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/aes_sbox_tb.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/aes_sbox_tb.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module aes_sbox_tb
+
+Top level modules:
+	aes_sbox_tb
+
+} {} {}} C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/aes_spi_tb.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/aes_spi_tb.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module aes_spi_tb
+
+Top level modules:
+	aes_spi_tb
+
+} {} {}} C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/galoismult.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/galoismult.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module galoismult
+
+Top level modules:
+	galoismult
+
+} {} {}} C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/subWord_tb.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/subWord_tb.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module subWord_tb
+
+Top level modules:
+	subWord_tb
+
+} {} {}} C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/keyExpansion_tb.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/keyExpansion_tb.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module keyExpansion_tb
+
+Top level modules:
+	keyExpansion_tb
+
+} {} {}} C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/input2State.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/input2State.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling package input2State_sv_unit
+-- Compiling module input2State
+
+Top level modules:
+	input2State
+
+} {} {}} C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/mixcolumns_tb.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/mixcolumns_tb.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module mixcolumns_tb
+
+Top level modules:
+	mixcolumns_tb
+
+} {} {}} C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/mixcolumn.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/mixcolumn.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module mixcolumn
+
+Top level modules:
+	mixcolumn
+
+} {} {}} C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/aes_spi.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/aes_spi.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module aes_spi
+
+Top level modules:
+	aes_spi
+
+} {} {}} C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/subWord.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/subWord.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module subWord
+
+Top level modules:
+	subWord
+
+} {} {}} C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/keyExpansion.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/keyExpansion.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module keyExpansion
+
+Top level modules:
+	keyExpansion
+
+} {} {}} C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/aes_core_tb.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/aes_core_tb.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module aes_core_tb
+
+Top level modules:
+	aes_core_tb
+
+} {} {}} C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/galoismult_tb.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/galoismult_tb.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module galoismult_tb
+
+Top level modules:
+	galoismult_tb
+
+} {} {}} C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/subBytes_tb.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/subBytes_tb.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module subBytes_tb
+
+Top level modules:
+	subBytes_tb
+
+} {} {}} C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/addRoundKey_tb.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/addRoundKey_tb.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module addRoundKey_tb
+
+Top level modules:
+	addRoundKey_tb
+
+} {} {}} C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/input2State_tb.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/input2State_tb.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module input2State_tb
+
+Top level modules:
+	input2State_tb
+
+} {} {}} C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/state2Output_tb.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/state2Output_tb.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module state2Output_tb
+
+Top level modules:
+	state2Output_tb
+
+} {} {}} C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/shiftRows.sv {2 {vlog -work work -vopt -sv -stats=none C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/shiftRows.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+** Warning: C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/shiftRows.sv(15): (vlog-13314) Defaulting port 's' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+-- Compiling package shiftRows_sv_unit
+-- Compiling module shiftRows
+** Warning: C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/shiftRows.sv(15): (vlog-13314) Defaulting port 's' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	shiftRows
+
+} {} {}} C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/sbox_tb.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/sbox_tb.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module sbox_tb
+
+Top level modules:
+	sbox_tb
+
+} {} {}} C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/rotWord.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/rotWord.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module rotWord
+
+Top level modules:
+	rotWord
+
+} {} {}} C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/aes.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/aes.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module aes
+
+Top level modules:
+	aes
+
+} {} {}} C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/addRoundKey.sv {2 {vlog -work work -vopt -sv -stats=none C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/addRoundKey.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+** Warning: C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/addRoundKey.sv(14): (vlog-13314) Defaulting port 's' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/addRoundKey.sv(15): (vlog-13314) Defaulting port 'key' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+-- Compiling package addRoundKey_sv_unit
+-- Compiling module addRoundKey
+** Warning: C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/addRoundKey.sv(14): (vlog-13314) Defaulting port 's' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/addRoundKey.sv(15): (vlog-13314) Defaulting port 'key' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	addRoundKey
+
+} {} {}} C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/state2Output.sv {2 {vlog -work work -vopt -sv -stats=none C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/state2Output.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+** Warning: C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/state2Output.sv(12): (vlog-13314) Defaulting port 'aes_state' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+-- Compiling package state2Output_sv_unit
+-- Compiling module state2Output
+** Warning: C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/state2Output.sv(12): (vlog-13314) Defaulting port 'aes_state' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	state2Output
+
+} {} {}} C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/sbox.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/sbox.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module sbox
+
+Top level modules:
+	sbox
+
+} {} {}} C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/shiftRows_tb.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/shiftRows_tb.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module shiftRows_tb
+
+Top level modules:
+	shiftRows_tb
+
+} {} {}} C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/rotWord_tb.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/rotWord_tb.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module rotWord_tb
+
+Top level modules:
+	rotWord_tb
+
+} {} {}} C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/mixcolumns.sv {2 {vlog -work work -vopt -sv -stats=none C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/mixcolumns.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+** Warning: C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/mixcolumns.sv(14): (vlog-13314) Defaulting port 'a' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+-- Compiling package mixcolumns_sv_unit
+-- Compiling module mixcolumns
+** Warning: C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/mixcolumns.sv(14): (vlog-13314) Defaulting port 'a' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	mixcolumns
+
+} {} {}} C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/sbox_sync.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/sbox_sync.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module sbox_sync
+
+Top level modules:
+	sbox_sync
+
+} {} {}}

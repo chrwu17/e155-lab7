@@ -46,7 +46,7 @@ module aes_core(input  logic         clk,
     logic [31:0] rcon;
 
     typedef enum logic [3:0] {
-        S0, S1, S2, S3, S4, S5, S6, S7
+        S0, S1, S2, S3, S4, S5, S6, S7, S8
     } state_t;
 
     state_t state, nextState;
@@ -83,25 +83,28 @@ module aes_core(input  logic         clk,
                 // Wait for KeyExpansion (1 cycle for subWord sbox)
             end
             S3: begin
-                // Capture expanded key
-                currentKey <= keyExpansionDone;
+                // Wait for final key expansion register
             end
             S4: begin
-                // AddRoundKey done, round complete
+                // Capture expanded key and AddRoundKey done, round complete
+                currentKey <= keyExpansionDone;
                 currentState <= addRoundKeyDone;
-                round <= round + 1;
+                if (round < 9) round <= round + 1;
             end
             S5: begin
                 // Final round SubBytes (wait 1 cycle)
             end
             S6: begin
-                // Wait for final KeyExpansion (1 cycle for subWord sbox)
+                // Wait for final key expansion (1 cycle for subWord sbox)
             end
             S7: begin
-                // Capture final round key and do final AddRoundKey
-                currentKey <= keyExpansionDone;
+                // Final AddRoundKey with expanded key (before capturing)
                 currentState <= addRoundKeyDone;
+                currentKey <= keyExpansionDone;  // Capture for consistency
                 done <= 1;
+            end
+            S8: begin
+                // Done
             end
         endcase
     end
@@ -118,7 +121,8 @@ module aes_core(input  logic         clk,
             end
             S5: nextState = S6;
             S6: nextState = S7;
-            S7: nextState = S7;  // Stay done
+            S7: nextState = S8;
+            S8: nextState = S8;  // Stay done
             default: nextState = S0;
         endcase
     end
@@ -127,7 +131,7 @@ module aes_core(input  logic         clk,
         case (state)
             S0: bypassMuxResult = plainTextState;  // Initial AddRoundKey with plaintext
             S4: bypassMuxResult = mixColumnsDone;  // Normal rounds use MixColumns
-            S7: bypassMuxResult = shiftRowsDone;  // Final round no MixColumns
+            S8: bypassMuxResult = shiftRowsDone;  // Final round no MixColumns
             default: bypassMuxResult = currentState;
         endcase
     end

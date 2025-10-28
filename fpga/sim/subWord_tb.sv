@@ -30,8 +30,8 @@ module subWord_tb();
         // Test case 2: Another word
         a = 32'h00112233;
         #10;
-        assert(y == 32'h637c777b)
-            else $error("Test 2 failed: a=%h, y=%h, expected=637c777b", a, y);
+        assert(y == 32'h638293c3)
+            else $error("Test 2 failed: a=%h, y=%h, expected=638293c3", a, y);
         
         // Test case 3: All zeros
         a = 32'h00000000;
