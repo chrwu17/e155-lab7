@@ -7,8 +7,6 @@
 // input2State converts the 128 bit input into a 4 x 4 array of bytes
 /////////////////////////////////////////////
 
-typedef logic [0:3][0:3] [7:0] aes_state_t;
-
 module input2State(input  logic [127:0] in,
                    output aes_state_t   aes_state);
     genvar r, c;

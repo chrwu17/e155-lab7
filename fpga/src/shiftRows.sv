@@ -10,7 +10,6 @@
 // FIPS-197 Section 5.1.2
 /////////////////////////////////////////////
 
-typedef logic [0:3][0:3] [7:0] aes_state_t;
 
 module shiftRows(input aes_state_t s,
                  output aes_state_t sPrime);

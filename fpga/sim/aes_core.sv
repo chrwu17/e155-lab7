@@ -45,6 +45,10 @@ module aes_core(input  logic         clk,
     aes_state_t initialKeyState;
     logic [31:0] rcon;
 
+    logic [127:0] savedFinalKey;
+    aes_state_t   finalKeyState;
+    aes_state_t finalLeftReg;
+
     typedef enum logic [3:0] {
         S0, S1, S2, S3, S4, S5, S6, S7, S8
     } state_t;
@@ -61,19 +65,21 @@ module aes_core(input  logic         clk,
     addRoundKey addRoundKey1(.s(bypassMuxResult), .key(keyMuxOut), .sPrime(addRoundKeyDone));
     state2Output state2Output1(.aes_state(currentState), .out(cyphertext));
 
+    input2State finalKeyToState(.in(savedFinalKey), .aes_state(finalKeyState));
+
     always_ff @(posedge clk) begin
         if (load) begin
             state <= S0;
             round <= 0;
-            done <= 0;
+            done  <= 0;
             currentKey <= key;
+            savedFinalKey <= 128'h0;               
         end else begin
             state <= nextState;
         end
         
         case (state)
             S0: begin
-                // Apply initial AddRoundKey with round 0 key
                 currentState <= addRoundKeyDone;
             end
             S1: begin
@@ -87,24 +93,30 @@ module aes_core(input  logic         clk,
             end
             S4: begin
                 // Capture expanded key and AddRoundKey done, round complete
-                currentKey <= keyExpansionDone;
+                currentKey   <= keyExpansionDone;
                 currentState <= addRoundKeyDone;
+
+                // when we've just finished round 9, keyExpansionDone is round-10 key
+                if (round == 4'd9) savedFinalKey <= keyExpansionDone;
+
                 if (round < 9) round <= round + 1;
             end
             S5: begin
                 // Final round SubBytes (wait 1 cycle)
+                finalLeftReg <= shiftRowsDone;
             end
             S6: begin
                 // Wait for final key expansion (1 cycle for subWord sbox)
+                
             end
             S7: begin
-                // Final AddRoundKey with expanded key (before capturing)
+                // Final AddRoundKey with saved round-10 key (no MixColumns)
                 currentState <= addRoundKeyDone;
-                currentKey <= keyExpansionDone;  // Capture for consistency
-                done <= 1;
+                
             end
             S8: begin
                 // Done
+                done <= 1;
             end
         endcase
     end
@@ -117,7 +129,7 @@ module aes_core(input  logic         clk,
             S3: nextState = S4;
             S4: begin
                 if (round < 9) nextState = S1;  // Do another round (rounds 1-9)
-                else nextState = S5;  // Go to final round (round 10)
+                else nextState = S5;            // Go to final round (round 10)
             end
             S5: nextState = S6;
             S6: nextState = S7;
@@ -131,15 +143,17 @@ module aes_core(input  logic         clk,
         case (state)
             S0: bypassMuxResult = plainTextState;  // Initial AddRoundKey with plaintext
             S4: bypassMuxResult = mixColumnsDone;  // Normal rounds use MixColumns
-            S8: bypassMuxResult = shiftRowsDone;  // Final round no MixColumns
+            S7: bypassMuxResult = finalLeftReg;   // Final round no MixColumns  
             default: bypassMuxResult = currentState;
         endcase
     end
 
+    
     always_comb begin
         case (state)
             S0: keyMuxOut = initialKeyState;  // Use original key for initial AddRoundKey
-            default: keyMuxOut = keyState;  // Use expanded key
+            S7: keyMuxOut = finalKeyState;    // final ARK uses saved round-10 key
+            default: keyMuxOut = keyState;    // Normal rounds use expanded key from keyExpansion
         endcase
     end
 

@@ -10,7 +10,6 @@
 // FIPS-197 Section 5.1.1
 /////////////////////////////////////////////
 
-typedef logic [0:3][0:3] [7:0] aes_state_t;
 
 module subBytes(input logic clk,
                 input aes_state_t s,

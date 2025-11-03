@@ -1,89 +1,221 @@
 m255
 K4
 z2
-Z0 !s12c _opt
+Z0 !s12c _opt1
 Z1 !s99 nomlopt
-R0
-R1
-R0
-R1
-R0
-R1
-R0
-R1
-R0
-R1
-R0
-R1
-R0
-R1
-R0
-R1
-R0
-R1
-R0
-R1
-R0
-R1
-R0
-R1
-R0
-R1
-R0
-R1
-R0
-R1
-R0
-R1
-R0
-R1
 R0
 R1
 R0
 R1
 Z2 !s12c _opt2
 R1
-Z3 !s12c _opt1
-R1
-R3
-R1
-R0
-R1
-R0
-R1
-R0
-R1
-R0
-R1
 R0
 R1
 R0
 R1
 R2
 R1
-R3
-R1
-R3
+R0
 R1
 R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+Z3 !s12c _opt
+R1
+R3
+R1
+R3
+R1
+R3
+R1
+R3
+R1
+R3
+R1
+R3
+R1
+R3
+R1
+R3
+R1
+R3
+R1
+R3
+R1
+R3
+R1
+R3
+R1
+R3
+R1
+R3
+R1
+R3
+R1
+R3
+R1
+R3
+R1
+R3
+R1
+R3
 R1
 R2
 R1
-R3
+R0
 R1
 R0
+R1
+R3
+R1
+R3
+R1
+R3
+R1
+R3
+R1
+R3
+R1
+R3
 R1
 R2
 R1
-R3
+R0
 R1
 R0
+R1
+R3
 R1
 R2
 R1
+R0
+R1
 R3
 R1
+R2
+R1
 R0
+R1
+R3
+R1
+R2
+R1
+R0
+R1
+R3
 R1
 !s11f vlog 2024.2 2024.05, May 20 2024
 13
@@ -107,13 +239,14 @@ Z8 o-quiet -auto_acc_if_foreign -work work -L iCE40UP +acc
 Z9 tCvgOpt 0
 n@_opt
 Z10 OL;O;2024.2;79
+R4
 T_opt1
-!s110 1761617904
-VG]4UPQF[Q^?5dh0ZZeT^O3
-04 10 4 work subWord_tb fast 0
-=2-3c22fbe5a2ff-690027f0-209-f5c
+!s110 1762155891
+V]QF2Rl9lVI[]@88EdLdLD0
+04 15 4 work keyExpansion_tb fast 0
+=1-3c22fbe5a2ff-69085d73-1e1-2dd8
 R1
-!s12f OEM25U6 
+!s12f OEM25U442 
 R5
 R6
 R7
@@ -121,14 +254,13 @@ R8
 R9
 n@_opt1
 R10
-R4
 T_opt2
-!s110 1761618025
-VaVYSzLC8:GBENSz<mb=X?1
-04 11 4 work aes_sbox_tb fast 0
-=1-3c22fbe5a2ff-69002868-399-1cc0
+!s110 1762138093
+VTa9a_3aIJiNCQ7]i^0Q3L2
+04 10 4 work aes_spi_tb fast 0
+=1-3c22fbe5a2ff-690817ed-105-201c
 R1
-!s12f OEM25U2 
+!s12f OEM25U55 
 R5
 R6
 R7
@@ -141,7 +273,7 @@ vaddRoundKey
 Z11 2C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/addRoundKey.sv
 Z12 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
 DXx4 work 19 addRoundKey_sv_unit 0 22 0dlZB;nXf<`lEW^8KPR0d1
-Z13 !s110 1761621543
+Z13 !s110 1762155883
 Z14 VDg1SIo80bB@j0V0VzS_@n1
 r1
 !s85 0
@@ -154,11 +286,11 @@ Z15 dC:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim
 Z16 w1761612895
 Z17 8C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/addRoundKey.sv
 Z18 FC:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/addRoundKey.sv
-!i122 866
+!i122 3280
 L0 14 13
 Z19 OL;L;2024.2;79
 31
-Z20 !s108 1761621543.000000
+Z20 !s108 1762155883.000000
 Z21 !s107 C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/addRoundKey.sv|
 Z22 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/addRoundKey.sv|
 !i113 0
@@ -181,7 +313,7 @@ R15
 R16
 R17
 R18
-!i122 866
+!i122 3280
 Z24 L0 12 0
 R19
 31
@@ -204,7 +336,7 @@ R15
 R16
 8C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/addRoundKey_tb.sv
 FC:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/addRoundKey_tb.sv
-!i122 867
+!i122 3281
 L0 11 28
 R14
 R19
@@ -221,7 +353,7 @@ nadd@round@key_tb
 vaes
 2C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/aes.sv
 R12
-Z25 !s110 1761621544
+R13
 !i10b 1
 !s100 NgTaJP5hMOF5c>S^KVhoZ2
 I9TA;;X`QmT:WaH[mF]o1I3
@@ -230,92 +362,92 @@ R15
 R16
 8C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/aes.sv
 FC:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/aes.sv
-!i122 868
+!i122 3282
 L0 10 12
 R14
 R19
 r1
 !s85 0
 31
-Z26 !s108 1761621544.000000
+R20
 !s107 C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/aes.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/aes.sv|
 !i113 0
 R23
 R9
 vaes_core
-Z27 2C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/aes_core.sv
+Z25 2C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/aes_core.sv
 R12
-DXx4 work 16 aes_core_sv_unit 0 22 ]0`oVG5dCE=jnSiaFhMkd1
-R25
+DXx4 work 16 aes_core_sv_unit 0 22 GOTj50nG`oSMdDXFXiJBO2
+R13
 R14
 r1
 !s85 0
 !i10b 1
-!s100 :3DWZc?2_zEMZhM9<IESC2
-IN?TFkcT2^ZnJoSh=hebHV2
+!s100 HK6F@GW`4U:MmoLXV6QeL0
+IK5ne1?ii0EZ`eTA^mEb4e1
 !s105 aes_core_sv_unit
 S1
 R15
-Z28 w1761621536
-Z29 8C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/aes_core.sv
-Z30 FC:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/aes_core.sv
-!i122 869
-L0 26 137
+Z26 w1762136133
+Z27 8C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/aes_core.sv
+Z28 FC:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/aes_core.sv
+!i122 3283
+L0 26 151
 R19
 31
-R26
-Z31 !s107 C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/aes_core.sv|
-Z32 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/aes_core.sv|
+R20
+Z29 !s107 C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/aes_core.sv|
+Z30 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/aes_core.sv|
 !i113 0
 R23
 R9
 Xaes_core_sv_unit
-R27
-R12
 R25
-V]0`oVG5dCE=jnSiaFhMkd1
+R12
+R13
+VGOTj50nG`oSMdDXFXiJBO2
 r1
 !s85 0
 !i10b 1
-!s100 fP5ON6llCbSaJ]hgaB]370
-I]0`oVG5dCE=jnSiaFhMkd1
+!s100 iI8o?=:z<QD3f9nY3RF013
+IGOTj50nG`oSMdDXFXiJBO2
 !i103 1
 S1
 R15
+R26
+R27
 R28
-R29
-R30
-!i122 869
+!i122 3283
 L0 24 0
 R19
 31
-R26
-R31
-R32
+R20
+R29
+R30
 !i113 0
 R23
 R9
 vaes_core_tb
 2C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/aes_core_tb.sv
 R12
-R25
+R13
 !i10b 1
 !s100 3gQhfDB2QMGI66SVBVUZo1
 Idb>XibkeQFi`6HnN?<WWQ3
 S1
 R15
-R16
+w1761698678
 8C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/aes_core_tb.sv
 FC:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/aes_core_tb.sv
-!i122 870
+!i122 3284
 L0 15 42
 R14
 R19
 r1
 !s85 0
 31
-R26
+R20
 !s107 C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/aes_core_tb.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/aes_core_tb.sv|
 !i113 0
@@ -324,7 +456,7 @@ R9
 vaes_sbox_tb
 2C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/aes_sbox_tb.sv
 R12
-R25
+R13
 !i10b 1
 !s100 H8^<0kV?DL`Z6kdLjj3BD1
 IOJ9AjDfiY;FKS@UZXo6XI0
@@ -333,14 +465,14 @@ R15
 R16
 8C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/aes_sbox_tb.sv
 FC:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/aes_sbox_tb.sv
-!i122 871
+!i122 3285
 L0 12 67
 R14
 R19
 r1
 !s85 0
 31
-R26
+R20
 !s107 C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/aes_sbox_tb.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/aes_sbox_tb.sv|
 !i113 0
@@ -349,7 +481,7 @@ R9
 vaes_spi
 2C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/aes_spi.sv
 R12
-R25
+R13
 !i10b 1
 !s100 ab9D2M19?ZYja<RlGi3e[1
 IG8<;RZhDN<zm^LC8<AUJA0
@@ -358,14 +490,14 @@ R15
 R16
 8C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/aes_spi.sv
 FC:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/aes_spi.sv
-!i122 872
+!i122 3286
 L0 12 29
 R14
 R19
 r1
 !s85 0
 31
-R26
+R20
 !s107 C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/aes_spi.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/aes_spi.sv|
 !i113 0
@@ -374,32 +506,58 @@ R9
 vaes_spi_tb
 2C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/aes_spi_tb.sv
 R12
-R25
+R13
 !i10b 1
-!s100 d]AZ[NK5^UcbDOjZ4_b^R3
-IzWGzEj0P@g`o?]nbLJ`hb1
+!s100 BoN]eJ6IGDo^[nZOaG5zC0
+IBW?a1BjoAK]1JD=ZfA_k70
 S1
 R15
-R16
+w1762138071
 8C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/aes_spi_tb.sv
 FC:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/aes_spi_tb.sv
-!i122 873
+!i122 3287
 L0 13 73
 R14
 R19
 r1
 !s85 0
 31
-R26
+R20
 !s107 C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/aes_spi_tb.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/aes_spi_tb.sv|
 !i113 0
 R23
 R9
+vAesKeyExpansion128
+Z31 2C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/keyExpansion.sv
+R12
+!s110 1762154795
+!i10b 1
+!s100 PRZERPG4@?I9B>1ZB@;oK0
+IVCSN`7=?ZZglz7C22U8873
+S1
+R15
+w1762154785
+Z32 8C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/keyExpansion.sv
+Z33 FC:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/keyExpansion.sv
+!i122 3168
+L0 12 48
+R14
+R19
+r1
+!s85 0
+31
+!s108 1762154795.000000
+Z34 !s107 C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/keyExpansion.sv|
+Z35 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/keyExpansion.sv|
+!i113 0
+R23
+R9
+n@aes@key@expansion128
 vgaloismult
 2C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/galoismult.sv
 R12
-R25
+R13
 !i10b 1
 !s100 S6?F2TTM][QJ6L9<_GJ]e3
 IoWJiGJ:Bd3miE1IzJEVR40
@@ -408,14 +566,14 @@ R15
 R16
 8C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/galoismult.sv
 FC:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/galoismult.sv
-!i122 874
+!i122 3288
 L0 12 8
 R14
 R19
 r1
 !s85 0
 31
-R26
+R20
 !s107 C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/galoismult.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/galoismult.sv|
 !i113 0
@@ -424,7 +582,7 @@ R9
 vgaloismult_tb
 2C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/galoismult_tb.sv
 R12
-R25
+Z36 !s110 1762155884
 !i10b 1
 !s100 i>m9?m=YHU>PAih:N^n5k1
 IY_fj<Vh2V<4[a4RmLWB?<2
@@ -433,24 +591,24 @@ R15
 R16
 8C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/galoismult_tb.sv
 FC:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/galoismult_tb.sv
-!i122 875
-Z33 L0 11 22
+!i122 3289
+Z37 L0 11 22
 R14
 R19
 r1
 !s85 0
 31
-R26
+Z38 !s108 1762155884.000000
 !s107 C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/galoismult_tb.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/galoismult_tb.sv|
 !i113 0
 R23
 R9
 vinput2State
-Z34 2C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/input2State.sv
+Z39 2C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/input2State.sv
 R12
 DXx4 work 19 input2State_sv_unit 0 22 20E33i8GlSfh^dnmZ3XJ43
-Z35 !s110 1761621545
+R36
 R14
 r1
 !s85 0
@@ -461,23 +619,23 @@ IdP?RiZT4zK3A[NYHEOzdR1
 S1
 R15
 R16
-Z36 8C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/input2State.sv
-Z37 FC:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/input2State.sv
-!i122 876
-Z38 L0 12 11
+Z40 8C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/input2State.sv
+Z41 FC:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/input2State.sv
+!i122 3290
+Z42 L0 12 11
 R19
 31
-R26
-Z39 !s107 C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/input2State.sv|
-Z40 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/input2State.sv|
+R38
+Z43 !s107 C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/input2State.sv|
+Z44 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/input2State.sv|
 !i113 0
 R23
 R9
 ninput2@state
 Xinput2State_sv_unit
-R34
+R39
 R12
-R35
+R36
 V20E33i8GlSfh^dnmZ3XJ43
 r1
 !s85 0
@@ -488,15 +646,15 @@ I20E33i8GlSfh^dnmZ3XJ43
 S1
 R15
 R16
-R36
-R37
-!i122 876
-Z41 L0 10 0
+R40
+R41
+!i122 3290
+Z45 L0 10 0
 R19
 31
-R26
-R39
-R40
+R38
+R43
+R44
 !i113 0
 R23
 R9
@@ -504,7 +662,7 @@ ninput2@state_sv_unit
 vinput2State_tb
 2C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/input2State_tb.sv
 R12
-R35
+R36
 !i10b 1
 !s100 M?m`TG38Q>K=nW[UiaM8a0
 I5emEMTX6oVT1h9K@lAWMa0
@@ -513,14 +671,14 @@ R15
 R16
 8C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/input2State_tb.sv
 FC:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/input2State_tb.sv
-!i122 877
+!i122 3291
 L0 11 49
 R14
 R19
 r1
 !s85 0
 31
-Z42 !s108 1761621545.000000
+R38
 !s107 C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/input2State_tb.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/input2State_tb.sv|
 !i113 0
@@ -528,27 +686,27 @@ R23
 R9
 ninput2@state_tb
 vkeyExpansion
-2C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/keyExpansion.sv
+R31
 R12
-R35
+R36
 !i10b 1
-!s100 i:Km0YeGhN0Boaknb_Ih:3
-I<ib5RN2BF8_HXA]4]@mj]0
+!s100 81Pold[X5=oz?lX2cAP[b2
+I=?Uga[Kn=O>fdcM9N3=Qz2
 S1
 R15
-R16
-8C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/keyExpansion.sv
-FC:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/keyExpansion.sv
-!i122 878
-L0 11 31
+w1762155875
+R32
+R33
+!i122 3292
+L0 24 92
 R14
 R19
 r1
 !s85 0
 31
-R42
-!s107 C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/keyExpansion.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/keyExpansion.sv|
+R38
+R34
+R35
 !i113 0
 R23
 R9
@@ -556,23 +714,23 @@ nkey@expansion
 vkeyExpansion_tb
 2C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/keyExpansion_tb.sv
 R12
-R35
+R36
 !i10b 1
-!s100 T3P^cBEh@b6Vf88ImX;:j2
-I0XY6>hH2Fc64]oULNjZjR0
+!s100 eQ5bl?J7jdikd>CdCNb8_2
+Id[0lCWzNLhJ`OTncNiMgD2
 S1
 R15
-R16
+w1762155860
 8C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/keyExpansion_tb.sv
 FC:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/keyExpansion_tb.sv
-!i122 879
-L0 11 37
+!i122 3293
+L0 18 96
 R14
 R19
 r1
 !s85 0
 31
-R42
+R38
 !s107 C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/keyExpansion_tb.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/keyExpansion_tb.sv|
 !i113 0
@@ -582,7 +740,7 @@ nkey@expansion_tb
 vmixcolumn
 2C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/mixcolumn.sv
 R12
-R35
+R36
 !i10b 1
 !s100 mBL9hdQCUo]_<HRka4Ym?0
 Ie?R1H:W7?k9I7B<A?9mYY3
@@ -591,14 +749,14 @@ R15
 R16
 8C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/mixcolumn.sv
 FC:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/mixcolumn.sv
-!i122 880
+!i122 3294
 L0 12 19
 R14
 R19
 r1
 !s85 0
 31
-R42
+R38
 !s107 C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/mixcolumn.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/mixcolumn.sv|
 !i113 0
@@ -607,7 +765,7 @@ R9
 vmixcolumn_tb
 2C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/mixcolumn_tb.sv
 R12
-R35
+R36
 !i10b 1
 !s100 5M3Wf352CBL[VYkl4529B1
 IaGRSUF:@ISVUj5g]2PFG?2
@@ -616,24 +774,24 @@ R15
 R16
 8C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/mixcolumn_tb.sv
 FC:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/mixcolumn_tb.sv
-!i122 881
-Z43 L0 11 16
+!i122 3295
+Z46 L0 11 16
 R14
 R19
 r1
 !s85 0
 31
-R42
+R38
 !s107 C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/mixcolumn_tb.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/mixcolumn_tb.sv|
 !i113 0
 R23
 R9
 vmixcolumns
-Z44 2C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/mixcolumns.sv
+Z47 2C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/mixcolumns.sv
 R12
 DXx4 work 18 mixcolumns_sv_unit 0 22 ]bK[mV^h1Oh0]LJB]A5FD2
-R35
+R36
 R14
 r1
 !s85 0
@@ -644,22 +802,22 @@ IUA1X:z=6]fRYLbmQ3GYT?3
 S1
 R15
 R16
-Z45 8C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/mixcolumns.sv
-Z46 FC:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/mixcolumns.sv
-!i122 882
+Z48 8C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/mixcolumns.sv
+Z49 FC:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/mixcolumns.sv
+!i122 3296
 L0 14 12
 R19
 31
-R42
-Z47 !s107 C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/mixcolumns.sv|
-Z48 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/mixcolumns.sv|
+R38
+Z50 !s107 C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/mixcolumns.sv|
+Z51 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/mixcolumns.sv|
 !i113 0
 R23
 R9
 Xmixcolumns_sv_unit
-R44
+R47
 R12
-R35
+R36
 V]bK[mV^h1Oh0]LJB]A5FD2
 r1
 !s85 0
@@ -670,22 +828,22 @@ I]bK[mV^h1Oh0]LJB]A5FD2
 S1
 R15
 R16
-R45
-R46
-!i122 882
+R48
+R49
+!i122 3296
 R24
 R19
 31
-R42
-R47
-R48
+R38
+R50
+R51
 !i113 0
 R23
 R9
 vmixcolumns_tb
 2C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/mixcolumns_tb.sv
 R12
-R35
+R36
 !i10b 1
 !s100 >O4zY;`en7kfH6f`4V?5h0
 I]6WLN:AkbV]i3:45ldPOO3
@@ -694,14 +852,14 @@ R15
 R16
 8C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/mixcolumns_tb.sv
 FC:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/mixcolumns_tb.sv
-!i122 883
-R33
+!i122 3297
+R37
 R14
 R19
 r1
 !s85 0
 31
-R42
+R38
 !s107 C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/mixcolumns_tb.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/mixcolumns_tb.sv|
 !i113 0
@@ -710,7 +868,7 @@ R9
 vrotWord
 2C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/rotWord.sv
 R12
-R35
+Z52 !s110 1762155885
 !i10b 1
 !s100 <RI[h769U=b3>:<905<bl3
 I:g9[:58bF3KRCIZ67S]m?3
@@ -719,14 +877,14 @@ R15
 R16
 8C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/rotWord.sv
 FC:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/rotWord.sv
-!i122 884
+!i122 3298
 L0 11 7
 R14
 R19
 r1
 !s85 0
 31
-R42
+Z53 !s108 1762155885.000000
 !s107 C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/rotWord.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/rotWord.sv|
 !i113 0
@@ -736,7 +894,7 @@ nrot@word
 vrotWord_tb
 2C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/rotWord_tb.sv
 R12
-Z49 !s110 1761621546
+R52
 !i10b 1
 !s100 z<6Y[ogOof4l]Lg4U`BNk3
 IOmZHm>n<<OeIS2SGZ:?o73
@@ -745,14 +903,14 @@ R15
 R16
 8C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/rotWord_tb.sv
 FC:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/rotWord_tb.sv
-!i122 885
+!i122 3299
 L0 11 17
 R14
 R19
 r1
 !s85 0
 31
-R42
+R53
 !s107 C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/rotWord_tb.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/rotWord_tb.sv|
 !i113 0
@@ -762,7 +920,7 @@ nrot@word_tb
 vsbox
 2C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/sbox.sv
 R12
-R49
+R52
 !i10b 1
 !s100 3]=k5@3V=L7=>G?KS`0>D1
 I=02ShdX]oNl=OePO=1eS70
@@ -771,14 +929,14 @@ R15
 R16
 8C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/sbox.sv
 FC:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/sbox.sv
-!i122 886
+!i122 3300
 L0 12 10
 R14
 R19
 r1
 !s85 0
 31
-Z50 !s108 1761621546.000000
+R53
 !s107 C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/sbox.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/sbox.sv|
 !i113 0
@@ -787,7 +945,7 @@ R9
 vsbox_sync
 2C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/sbox_sync.sv
 R12
-R49
+R52
 !i10b 1
 !s100 h_ia;<V;_:LlFo;Yhnihm1
 IiIefSgOhSQ3?e9BKM`g7C1
@@ -796,14 +954,14 @@ R15
 R16
 8C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/sbox_sync.sv
 FC:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/sbox_sync.sv
-!i122 887
-R43
+!i122 3301
+R46
 R14
 R19
 r1
 !s85 0
 31
-R50
+R53
 !s107 C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/sbox_sync.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/sbox_sync.sv|
 !i113 0
@@ -812,7 +970,7 @@ R9
 vsbox_tb
 2C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/sbox_tb.sv
 R12
-R49
+R52
 !i10b 1
 !s100 ;j3g:fC_]ehiI6>6[6TNd1
 I[Y?e8dcMFAIAbCZ^8?Q=g2
@@ -821,24 +979,24 @@ R15
 R16
 8C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/sbox_tb.sv
 FC:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/sbox_tb.sv
-!i122 888
+!i122 3302
 L0 11 19
 R14
 R19
 r1
 !s85 0
 31
-R50
+R53
 !s107 C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/sbox_tb.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/sbox_tb.sv|
 !i113 0
 R23
 R9
 vshiftRows
-Z51 2C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/shiftRows.sv
+Z54 2C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/shiftRows.sv
 R12
 DXx4 work 17 shiftRows_sv_unit 0 22 ^mXc;Y:z=bL@kU[6fjRI`2
-R49
+R52
 R14
 r1
 !s85 0
@@ -849,23 +1007,23 @@ IiaBLSAZ0CMf[5lMX?h0M91
 S1
 R15
 R16
-Z52 8C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/shiftRows.sv
-Z53 FC:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/shiftRows.sv
-!i122 889
+Z55 8C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/shiftRows.sv
+Z56 FC:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/shiftRows.sv
+!i122 3303
 L0 15 11
 R19
 31
-R50
-Z54 !s107 C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/shiftRows.sv|
-Z55 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/shiftRows.sv|
+R53
+Z57 !s107 C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/shiftRows.sv|
+Z58 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/shiftRows.sv|
 !i113 0
 R23
 R9
 nshift@rows
 XshiftRows_sv_unit
-R51
+R54
 R12
-R49
+R52
 V^mXc;Y:z=bL@kU[6fjRI`2
 r1
 !s85 0
@@ -876,15 +1034,15 @@ I^mXc;Y:z=bL@kU[6fjRI`2
 S1
 R15
 R16
-R52
-R53
-!i122 889
-Z56 L0 13 0
+R55
+R56
+!i122 3303
+Z59 L0 13 0
 R19
 31
-R50
-R54
-R55
+R53
+R57
+R58
 !i113 0
 R23
 R9
@@ -892,7 +1050,7 @@ nshift@rows_sv_unit
 vshiftRows_tb
 2C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/shiftRows_tb.sv
 R12
-R49
+R52
 !i10b 1
 !s100 [Zkh;1NjhWU[kIlDf?gMZ1
 IMf75P8oCCN>:71VWZV1[32
@@ -901,14 +1059,14 @@ R15
 R16
 8C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/shiftRows_tb.sv
 FC:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/shiftRows_tb.sv
-!i122 890
-R33
+!i122 3304
+R37
 R14
 R19
 r1
 !s85 0
 31
-R50
+R53
 !s107 C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/shiftRows_tb.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/shiftRows_tb.sv|
 !i113 0
@@ -916,10 +1074,10 @@ R23
 R9
 nshift@rows_tb
 vstate2Output
-Z57 2C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/state2Output.sv
+Z60 2C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/state2Output.sv
 R12
 DXx4 work 20 state2Output_sv_unit 0 22 7VXM1FGaW?j`a8aS<QIZk1
-R49
+Z61 !s110 1762155887
 R14
 r1
 !s85 0
@@ -930,23 +1088,23 @@ IARNA`>a7mgmCQRmbFPdmm1
 S1
 R15
 R16
-Z58 8C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/state2Output.sv
-Z59 FC:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/state2Output.sv
-!i122 891
-R38
+Z62 8C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/state2Output.sv
+Z63 FC:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/state2Output.sv
+!i122 3305
+R42
 R19
 31
-R50
-Z60 !s107 C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/state2Output.sv|
-Z61 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/state2Output.sv|
+Z64 !s108 1762155887.000000
+Z65 !s107 C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/state2Output.sv|
+Z66 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/state2Output.sv|
 !i113 0
 R23
 R9
 nstate2@output
 Xstate2Output_sv_unit
-R57
+R60
 R12
-R49
+R61
 V7VXM1FGaW?j`a8aS<QIZk1
 r1
 !s85 0
@@ -957,15 +1115,15 @@ I7VXM1FGaW?j`a8aS<QIZk1
 S1
 R15
 R16
-R58
-R59
-!i122 891
-R41
+R62
+R63
+!i122 3305
+R45
 R19
 31
-R50
-R60
-R61
+R64
+R65
+R66
 !i113 0
 R23
 R9
@@ -973,7 +1131,7 @@ nstate2@output_sv_unit
 vstate2Output_tb
 2C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/state2Output_tb.sv
 R12
-R49
+R61
 !i10b 1
 !s100 ;UZeA5<FS=RRLYmJIa:d?3
 IMF:z:<@K[07bPz@;mTjic3
@@ -982,14 +1140,14 @@ R15
 R16
 8C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/state2Output_tb.sv
 FC:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/state2Output_tb.sv
-!i122 892
+!i122 3306
 L0 11 20
 R14
 R19
 r1
 !s85 0
 31
-R50
+R64
 !s107 C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/state2Output_tb.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/state2Output_tb.sv|
 !i113 0
@@ -997,10 +1155,10 @@ R23
 R9
 nstate2@output_tb
 vsubBytes
-Z62 2C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/subBytes.sv
+Z67 2C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/subBytes.sv
 R12
 DXx4 work 16 subBytes_sv_unit 0 22 5T`>Og5gfjQ9m5<BgJG_[1
-R49
+R61
 R14
 r1
 !s85 0
@@ -1010,24 +1168,24 @@ IOb4Ta5Bc`R6KjBQ>]dH;f0
 !s105 subBytes_sv_unit
 S1
 R15
-Z63 w1761617079
-Z64 8C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/subBytes.sv
-Z65 FC:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/subBytes.sv
-!i122 893
+Z68 w1761617079
+Z69 8C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/subBytes.sv
+Z70 FC:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/subBytes.sv
+!i122 3307
 L0 15 12
 R19
 31
-R50
-Z66 !s107 C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/subBytes.sv|
-Z67 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/subBytes.sv|
+R64
+Z71 !s107 C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/subBytes.sv|
+Z72 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/subBytes.sv|
 !i113 0
 R23
 R9
 nsub@bytes
 XsubBytes_sv_unit
-R62
+R67
 R12
-R49
+R61
 V5T`>Og5gfjQ9m5<BgJG_[1
 r1
 !s85 0
@@ -1037,16 +1195,16 @@ I5T`>Og5gfjQ9m5<BgJG_[1
 !i103 1
 S1
 R15
-R63
-R64
-R65
-!i122 893
-R56
+R68
+R69
+R70
+!i122 3307
+R59
 R19
 31
-R50
-R66
-R67
+R64
+R71
+R72
 !i113 0
 R23
 R9
@@ -1054,7 +1212,7 @@ nsub@bytes_sv_unit
 vsubBytes_tb
 2C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/subBytes_tb.sv
 R12
-Z68 !s110 1761621547
+R61
 !i10b 1
 !s100 <bkiZhdVllaJ6=SHFo;hd3
 IZP@9FoV_52Z17KglJd^_H0
@@ -1063,14 +1221,14 @@ R15
 w1761617268
 8C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/subBytes_tb.sv
 FC:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/subBytes_tb.sv
-!i122 894
+!i122 3308
 L0 11 52
 R14
 R19
 r1
 !s85 0
 31
-Z69 !s108 1761621547.000000
+R64
 !s107 C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/subBytes_tb.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/subBytes_tb.sv|
 !i113 0
@@ -1080,7 +1238,7 @@ nsub@bytes_tb
 vsubWord
 2C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/subWord.sv
 R12
-R68
+R61
 !i10b 1
 !s100 =^8gfZhEz>C_6NiS1gKJ?1
 I?a46SfO73Ee28MbzPPbPJ0
@@ -1089,14 +1247,14 @@ R15
 R16
 8C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/subWord.sv
 FC:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/subWord.sv
-!i122 895
+!i122 3309
 L0 11 10
 R14
 R19
 r1
 !s85 0
 31
-R69
+R64
 !s107 C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/subWord.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/subWord.sv|
 !i113 0
@@ -1106,7 +1264,7 @@ nsub@word
 vsubWord_tb
 2C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/subWord_tb.sv
 R12
-R68
+R61
 !i10b 1
 !s100 TU05gcggLklG?F^j1zzL?2
 I8EMc7[8dddM;Bn@V_5WYe3
@@ -1115,14 +1273,14 @@ R15
 w1761617777
 8C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/subWord_tb.sv
 FC:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/subWord_tb.sv
-!i122 896
+!i122 3310
 L0 11 35
 R14
 R19
 r1
 !s85 0
 31
-R69
+R64
 !s107 C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/subWord_tb.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/chris/OneDrive/Desktop/e155-lab7/fpga/sim/subWord_tb.sv|
 !i113 0

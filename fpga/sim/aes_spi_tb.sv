@@ -38,8 +38,8 @@ module aes_spi_tb();
  // Create dumpfile
  initial
    begin
-     $dumpfile("testbench_aes_spi.vcd");
-     $dumpvars(0, testbench_aes_spi);
+     $dumpfile("aes_spi_tb.vcd");
+     $dumpvars(0, aes_spi_tb);
    end
     
     // generate clock and load signals

@@ -9,8 +9,6 @@
 //   Same operation performed on each of four columns
 /////////////////////////////////////////////
 
-typedef logic [0:3][0:3][7:0] aes_state_t;
-
 module mixcolumns (input aes_state_t a,
                    output aes_state_t y);
     logic [31:0] col_y [0:3];

@@ -7,7 +7,6 @@
 // state2Output converts the 4 x 4 array of bytes into a 128 bit output
 /////////////////////////////////////////////
 
-typedef logic [0:3][0:3] [7:0] aes_state_t;
 
 module state2Output(input aes_state_t aes_state,
                     output  logic [127:0] out);
